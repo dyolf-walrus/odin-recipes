@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, serif;
+    color: #000033;
+    background-color: #99CCCC;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h1 {
+    font-size: 50px;
+    border: double;
+    border-color:#000033;
+    border-width: 4px 0;
+    text-align: center;
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.imageholder {
+    height: 200px;
+    overflow: hidden;
+    border: solid 2px;
+    width: 400px;
+    margin: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.scampi {
+    position: relative;
+    top: -50px;
+}
+
+.description {
+    font-size: 16px;
+    text-align: center;
+}
+
+.directionsholder {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ingredients {
+    border: 1px solid #000033;
+    background-color:antiquewhite;
+    padding: 15px;
+    margin: auto;
+    min-width: 170px;
+}
+
+.directionsholder .ingredients ul {
+    padding-left: 20px;
+    text-align: initial;
+    list-style-type: disc;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+p {
+    text-align: center;
+}
